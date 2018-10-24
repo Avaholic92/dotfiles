@@ -13,6 +13,7 @@
 |---|---|
 | tmux/tmux.conf | general tmux settings |
 | tmux/tmux-keybindings.conf | custom keybindings |
+| tmux/tmux-colors.conf | colorscheme settings |
 
 ### Shells
 
