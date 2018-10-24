@@ -64,3 +64,5 @@ so ~/dotfiles/vim/keymap.vim
 
 " --- Autostart
 so ~/dotfiles/vim/autostart.vim
+
+"[eof]

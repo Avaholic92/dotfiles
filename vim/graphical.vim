@@ -12,3 +12,5 @@ if has ('gui_running')
    colorscheme fruidle				" set theme to elflord
    let g:airline_theme='silver'		" set airline theme
 endif
+
+"[eof]
