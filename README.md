@@ -1,7 +1,6 @@
 ## dotfiles
 
- __**Vim**__
-
+##### Vim
 | FILE | PURPOSE |
 |---|---|
 | vim/autostart.vim | commands and plugins to start when vim is started |
