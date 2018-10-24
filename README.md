@@ -1,4 +1,4 @@
-## dotfiles
+## DOTFILES
 
 ##### Vim
 | FILE | PURPOSE |
