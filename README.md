@@ -1,4 +1,4 @@
-### dotfiles
+## dotfiles
 
 ##### Vim
 * vim/autostart.vim - commands and plugins to start when vim is started
@@ -10,7 +10,7 @@
 * tmux/tmux.conf - general tmux settings
 * tmux/tmux-keybindings.conf - custom keybindings
 
-#### Shells
+### Shells
 
 ##### bash
 * shells/bash/bashrc - general bash settings
