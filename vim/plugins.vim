@@ -25,7 +25,7 @@ call vundle#end()
 let g:gitgutter_enabled=1			" enable git-gutter by default
 let g:gitgutter_signs=1
 let g:gitgutter_async=0
-let g:gitgutter_highlight_lines=1
+"let g:gitgutter_highlight_lines=1
 
 " - Markdown
 let vim_markdown_preview_github=1
