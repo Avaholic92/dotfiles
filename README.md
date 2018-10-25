@@ -21,6 +21,7 @@
 | FILE | PURPOSE |
 |---|---|
 | shells/bash/bashrc | general bash settings |
+| shells/bash/bash-functions | custom functions for bash |
 
 ##### zsh
 
