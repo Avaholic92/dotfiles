@@ -60,7 +60,8 @@ function parse_git_dirty {
   else
     echo ""
   fi
-												   }
+}
+
 # --- PROMPT
 #export PS1="[\[\e[32m\]\u\[\e[m\]@\H:\W \[\e[33m\]\`parse_git_branch\`\[\e[m\]]\\$ "
 if [ -n "$SSH_CONNECTION" ]; then
@@ -70,38 +71,7 @@ else
 fi
 
 # --- ALIASES
-_myos="$(uname)"
-case $_myos in
-   Darwin)
-      alias gvim="/Applications/MacVim.app/Contents/bin/vim -g"
-      alias htop="sudo htop" 
-      alias brewup="brew update;brew upgrade;brew prune;brew cleanup;brew doctor"
-      ;;
-   Linux)
-      alias bbp='sudo bleachbit -p $(cat /home/$SUDO_USER/cleaners)'
-      alias bbc='sudo bleachbit -c $(cat /home/$SUDO_USER/cleaners)'
-      ;;
+source ~/dotfiles/shells/bash/bash-alias
 
-   *)
-      ;;
-esac
-
-alias cat='bat'
-alias ls='ls -lh'
-alias grep='grep'
-alias egrep='egrep'
-alias fgrep='fgrep'
-alias du='du -sch'
-alias tree='tree -a -c'
-alias whois='whois -H'
-alias powershell="pwsh"
-alias mv="mv -v"
-alias rm="rm -v"
-alias cp="cp -v"
-alias youtube-dl-playlist="youtube-dl -f mp4 -wv --ignore-errors --output '%(playlist)s/%(playlist_index)s- %(title)s.%(ext)s'"
-alias youtuve-dl="youtube-dl -f mp4 -wv --ignore-errors --output '%(title)s.%(ext)s'"
-alias hbget="python /usr/local/scripts/hbget"
-alias dd="dd status=progress"
-alias blah="echo hello bash"
-
+# --- FUNCTIONS
 source ~/dotfiles/shells/bash/bash-functions
