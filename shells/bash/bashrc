@@ -64,6 +64,7 @@ function parse_git_dirty {
 
 # --- PROMPT
 #export PS1="[\[\e[32m\]\u\[\e[m\]@\H:\W \[\e[33m\]\`parse_git_branch\`\[\e[m\]]\\$ "
+
 if [ -n "$SSH_CONNECTION" ]; then
    export PS1="\[$(tput setaf 1)\]┌─╼ [$(tput setaf 7)\] \u \[$(tput setaf 1)\]╺─╸\[$(tput setaf 7)\] \`parse_git_branch\` \[$(tput setaf 7)\][\w]\\n\[$(tput setaf 1)\]\$(if [[ \$? == 0 ]]; then echo \"\[$(tput setaf 1)\]└────╼ \[$(tput setaf 7)\][ssh]\"; else echo \"\[$(tput setaf 1)\]└╼ \[$(tput setaf 7)\][ssh]\"; fi) \[$(tput setaf 7)\]"
 else
