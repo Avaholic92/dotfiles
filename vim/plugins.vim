@@ -6,7 +6,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-sensible'
 Plugin 'tpope/vim-surround'
 Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'valloric/youcompleteme'
+"Plugin 'valloric/youcompleteme'
 
 Plugin 'airblade/vim-gitgutter'
 Plugin 'vim-airline/vim-airline'
