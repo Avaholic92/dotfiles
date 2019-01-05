@@ -25,6 +25,8 @@
 
 ##### zsh
 
+---
+
 #### SETUP:
 
 ##### Bash
@@ -34,3 +36,17 @@
 ```bash
 touch .bashrc
 ```
+
+> 2) Add the following to your .bashrc (`or .bash_profile on macOS`)
+
+```bash
+source ~/dotfiles/shells/bash/bashrc
+```
+
+> 3) Reload your terminal, either by opening a new window or running the following command
+
+```bash
+source .bashrc
+```
+
+
