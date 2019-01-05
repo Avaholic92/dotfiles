@@ -25,3 +25,12 @@
 
 ##### zsh
 
+#### SETUP:
+
+##### Bash
+
+> 1) Add your .bashrc to your Home directory (` .bash_profile on macOS`)
+
+```bash
+touch .bashrc
+```
