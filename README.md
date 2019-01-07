@@ -3,9 +3,9 @@
 ##### Vim
 | FILE | PURPOSE |
 |---|---|
-| vim/autostart.vim | commands and plugins to start when vim is started |
-| vim/graphical.vim | settings related to colorscheme, GUI, etc |
-| vim/keymap.vim | custom keybindings |
+| vim/config/autostart.vim | commands and plugins to start when vim is started |
+| vim/config/graphical.vim | settings related to colorscheme, GUI, etc |
+| vim/config/keymap.vim | custom keybindings |
 | vim/vimrc.vim | general vim settings |
 
 ##### Tmux
