@@ -6,6 +6,7 @@ case $_myos in
       alias gvim="/Applications/MacVim.app/Contents/bin/vim -g"
       alias htop="sudo htop" 
       alias brewup="brew update;brew upgrade;brew prune;brew cleanup;brew doctor"
+      alias vlc="/Applications/VLC.app/Contents/MacOS/VLC'
       ;;
    Linux)
       alias bbp='sudo bleachbit -p $(cat /home/$SUDO_USER/cleaners)'
