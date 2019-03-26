@@ -5,7 +5,8 @@ case $_myos in
    Darwin)
       alias gvim="/Applications/MacVim.app/Contents/bin/vim -g"
       alias htop="sudo htop" 
-      alias brewup="brew update;brew upgrade;brew prune;brew cleanup;brew doctor"
+      #alias brewup="brew update;brew upgrade;brew prune;brew cleanup;brew doctor"
+      alias brewup="brew update;brew upgrade;brew cleanup;brew cleanup;brew doctor"
       alias vlc="/Applications/VLC.app/Contents/MacOS/VLC"
       ;;
    Linux)

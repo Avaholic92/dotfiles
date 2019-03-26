@@ -27,3 +27,17 @@ function extract {
            fi
    fi
 }
+
+## OS Specific
+_myos="$(uname)"
+case $_myos in
+   Darwin)
+      # Add HomeBrew sbin to $PATH
+      export PATH="/usr/local/sbin:$PATH"
+
+      # Add MacPorts to $PATH
+      export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+      ;;
+   Linux)
+      # More to be added later
+      ;;
