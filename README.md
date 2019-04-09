@@ -1,5 +1,8 @@
 ## DOTFILES
 
+# TOC 
+[About](# About)
+
 ##### Vim
 | FILE | PURPOSE |
 |---|---|
@@ -34,6 +37,8 @@
 ##### macOS
 
 ---
+### About
+some test text
 
 #### SETUP:
 
