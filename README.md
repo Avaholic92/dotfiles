@@ -1,7 +1,9 @@
 ## DOTFILES
 
-# TOC 
-[About](#About)
+[ I. About](#About)
+[ II. Files](#Files)
+[ III. Setup](#Setup)
+
 
 ##### Vim
 | FILE | PURPOSE |
