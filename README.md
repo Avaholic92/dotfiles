@@ -1,9 +1,18 @@
 ## DOTFILES
 
 [ I. About](#About)
+
 [ II. Files](#Files)
+
 [ III. Setup](#Setup)
 
+---
+
+### About
+
+My collection of dotfiles for my various Unix/Linux environments. Feel free to use them! 
+
+### Files
 
 ##### Vim
 | FILE | PURPOSE |
@@ -39,8 +48,6 @@
 ##### macOS
 
 ---
-### About
-some test text
 
 #### SETUP:
 
