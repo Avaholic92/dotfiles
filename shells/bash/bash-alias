@@ -8,6 +8,7 @@ case $_myos in
       #alias brewup="brew update;brew upgrade;brew prune;brew cleanup;brew doctor"
       alias brewup="brew update;brew upgrade;brew cleanup;brew cleanup;brew doctor"
       alias vlc="/Applications/VLC.app/Contents/MacOS/VLC"
+      alias msfconsole="sudo -E ./opt/metasploit-framework/bin/msfconsole"
       ;;
    Linux)
       alias bbp='sudo bleachbit -p $(cat /home/$SUDO_USER/cleaners)'
