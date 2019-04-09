@@ -1,7 +1,7 @@
 ## DOTFILES
 
 # TOC 
-[About](# About)
+[About](#About)
 
 ##### Vim
 | FILE | PURPOSE |
