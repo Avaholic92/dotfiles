@@ -19,6 +19,7 @@ Plugin 'morhetz/gruvbox'
 Plugin 'arcticicestudio/nord-vim'
 Plugin 'dhruvasagar/vim-table-mode'
 Plugin 'scrooloose/nerdtree'
+Plugin 'jceb/vim-orgmode'
 call vundle#end()
 
 " --- Plugin Settings
