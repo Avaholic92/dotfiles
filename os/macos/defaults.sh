@@ -14,11 +14,18 @@
 
 ### SYSTEM ###
 
+# Hide all desktop icons by default (set to true to disable)
+defaults write com.apple.finder CreateDesktop false
 
 ### SAFARI ###
 
 
 ### FINDER ###
 
-# Show all files in Finder
+# Hide all desktop icons by default (set to true to disable)
+defaults write com.apple.finder CreateDesktop false
+
+# Show all files in Finder - includes hidden files (set to No to disable)
 defaults write com.apple.finder AppleShowAllFiles Yes
+
+killall Finder
