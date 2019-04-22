@@ -72,7 +72,7 @@ else
 fi
 
 # --- ALIASES
-source ~/dotfiles/shells/bash/bash-alias
+source ~/Documents/GitHub/dotfiles/shells/bash/bash-alias
 
 # --- FUNCTIONS
-source ~/dotfiles/shells/bash/bash-functions
+source ~/Documents/GitHub/dotfiles/shells/bash/bash-functions
