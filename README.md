@@ -36,6 +36,7 @@ My collection of dotfiles for my various Unix/Linux environments. Feel free to u
 |---|---|
 | shells/bash/bashrc | general bash settings |
 | shells/bash/bash-functions | custom functions for bash |
+| shells/bash/bash-alias | custom aliases for bash |
 
 ##### zsh
 
