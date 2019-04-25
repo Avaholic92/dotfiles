@@ -6,7 +6,6 @@
 
 [ III. Setup](#Setup)
 
-- [ i. Vim](#Vim}
 ---
 
 ### About
