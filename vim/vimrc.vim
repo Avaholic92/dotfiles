@@ -6,10 +6,10 @@ filetype plugin indent on			" enable built-in indentation rules for specific fil
 syntax on					" enable syntax highlighting
 
 " --- Plugins
-so ~/Documents/Github/dotfiles/vim/config/plugins.vim
+so ~/dotfiles/vim/config/plugins.vim
 
 " --- Colorscheme
-so ~/Documents/GitHub/dotfiles/vim/config/graphical.vim
+so ~/dotfiles/vim/config/graphical.vim
 
 " --- General Settings
 set autoindent					" set indent level same as previous line
@@ -60,7 +60,7 @@ set wrapmargin=0
 set wrap					" wrap long lines
 
 " --- Keymap
-so ~/Documents/GitHub/dotfiles/vim/config/keymap.vim
+so ~/dotfiles/vim/config/keymap.vim
 
 " --- Autostart
 "so ~/dotfiles/vim/config/autostart.vim

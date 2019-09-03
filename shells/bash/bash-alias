@@ -36,3 +36,4 @@ alias youtube-dl="youtube-dl -f mp4 -wv --ignore-errors --output '%(title)s.%(ex
 alias hbget="python /usr/local/scripts/hbget"
 alias dd="dd status=progress"
 alias tmux="tmux -u"
+alias zip="zip -vr"

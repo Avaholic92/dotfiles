@@ -42,3 +42,8 @@ case $_myos in
       # More to be added later
       ;;
 esac
+
+## Add git autocompletion
+if [ -f ~/.git-completion.bash ]; then
+	source ~/.git-completion.bash
+fi
