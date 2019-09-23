@@ -1,7 +1,7 @@
 " --- Colorscheme
 set background=dark				" setting dark mode
-colorscheme gruvbox
-let g:airline_theme='silver'
+colorscheme termschool
+let g:airline_theme='angr'
 
 " --- GUI Settings
 if has ('gui_running')
@@ -11,8 +11,8 @@ if has ('gui_running')
    set guioptions-=L				" remove left-hand scroll bar
    set guifont=Courier\ New\ 10			" set font to Courier New 10pt
    set background=dark				" Setting Dark mode
-   colorscheme gruvbox				" set theme to elflord
-   let g:airline_theme='silver'		" set airline theme
+   colorscheme termschool				" set theme to elflord
+   let g:airline_theme='angr'		" set airline theme
 endif
 
 "[eof]

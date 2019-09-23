@@ -63,6 +63,6 @@ set wrap					" wrap long lines
 so ~/dotfiles/vim/config/keymap.vim
 
 " --- Autostart
-"so ~/dotfiles/vim/config/autostart.vim
+so ~/dotfiles/vim/config/autostart.vim
 
 "[eof]

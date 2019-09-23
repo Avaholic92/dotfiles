@@ -22,10 +22,15 @@ defaults write com.apple.finder CreateDesktop false
 
 ### FINDER ###
 
-# Hide all desktop icons by default (set to true to disable)
-defaults write com.apple.finder CreateDesktop false
-
 # Show all files in Finder - includes hidden files (set to No to disable)
 defaults write com.apple.finder AppleShowAllFiles Yes
 
+
+
+
+
+
+
+
+# Restart Finder
 killall Finder

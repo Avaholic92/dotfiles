@@ -13,7 +13,8 @@ export CLICOLOR="Yes"
 export LSCOLOR=""
 
 # --- PATH
-export PATH=$HOME/workspace/python2/bin:/usr/local/scripts/:$PATH
+#export PATH=$HOME/workspace/python2/bin:/usr/local/scripts/:$PATH
+export PATH=/usr/local/scripts/:$PATH
 
 # --- GIT CURRENT BRANCH
 function parse_git_branch() {
